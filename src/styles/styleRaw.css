@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.master-grid{
+    display: grid;
+    grid-template-rows: 44% 12% 44%;
+}
+
+.teacherDiv{
+    grid-row-start: 1;
+    overflow: auto;
+}
+
+.buttonDiv{
+    grid-row-start: 2;
+    overflow: auto;
+}
+
+.childDiv{
+    grid-row-start: 3;
+}
+
+.backGradient{
+    background: #c31432;  /* fallback for old browsers */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.frontGradient{
+    background: #c31432;  /* fallback for old browsers */
+    background: linear-gradient(to right, #371252, #c02741); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.tableGradient{
+    background: #cf1030;  /* fallback for old browsers */
+}
